@@ -1,4 +1,4 @@
-# Picoin
+# Pitcoin
 
 This is simple prototype of a  bitcoin node, implemented with python.
 
