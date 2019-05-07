@@ -1,10 +1,25 @@
-# Satoshi Way: module 3
+# Picoin
 
-The aim of the third week is to:
-* Update pitcoin mining to be more real-world one: add atomatic mining, total supply and difficulty adjusment.
-* Implement P2PWPKH transaction logic.
-* Add bech32 wallets in the wallet_cli.
-* Update block for P2PWPKH as well.
+This is simple prototype of a  bitcoin node, implemented with python.
+
+It supports following key points and features:
+* transactions creation, serialization, deserialization and validation
+* mempool for storing unconfirmed transactions
+* creating blocks, calculating merkle root
+* generating wallets (including bech32) in the wallet_cli.
+* mining and PoW
+* several possible roles at the system: simple user and the miner
+* creating the testnet
+* wallet-cli and miner-cli
+* test coverage for different system modules
+* transactions, constructed in the way Bitcoin network can accept them
+* UTXO system
+* Bitcoin Script implementation
+* atomatic mining, total supply and difficulty adjusment.
+* P2PWPKH transaction logic.
+* updated block structure for P2PWPKH
+* basic networking and testnet
+
 
 ## Setup instructions
 * Clone the repository
